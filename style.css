@@ -93,3 +93,27 @@ label{
     }
 }
 }
+.checkbox{
+    width: 20px;
+    height: 20 px;
+    cursor: pointer;
+}
+.barra{
+    background-color: var(--fundo-senha);
+    height: 30px;
+    width: 100%;
+}
+.fraca{
+    height: 30px;
+    width: 25%;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 30px;
+}
+.media{
+    height: 30px;
+    width: 50%;
+    background-color:aqua;
+    position: relative;
+    bottom: 30px;
+}
