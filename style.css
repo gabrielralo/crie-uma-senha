@@ -106,14 +106,25 @@ label{
 .fraca{
     height: 30px;
     width: 25%;
-    background-color: aquamarine;
+    background-color:#0c54b8;
     position: relative;
     bottom: 30px;
 }
 .media{
     height: 30px;
     width: 50%;
-    background-color:aqua;
+    background-color:#0c54b8;
     position: relative;
     bottom: 30px;
+}
+.forte{
+    height: 30px;
+    width: 100%;
+    background-color: #14229f;
+    position: relative;
+    bottom: 30px;
+}
+.parametro-senha{
+    display: flex;
+    justify-content: space-between;
 }
