@@ -113,14 +113,14 @@ label{
 .media{
     height: 30px;
     width: 50%;
-    background-color:#0c54b8;
+    background-color:aquamarine;
     position: relative;
     bottom: 30px;
 }
 .forte{
     height: 30px;
     width: 100%;
-    background-color: #14229f;
+    background-color:aquamarine;
     position: relative;
     bottom: 30px;
 }
