@@ -27,4 +27,5 @@ const numeros = '0123456789';
 const simbolos = '!@#*?';
 function geraSenha (){
     let alfabeto = '';
+    
 
