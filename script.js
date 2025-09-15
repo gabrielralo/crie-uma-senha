@@ -6,25 +6,25 @@ const botoes = document.querySelectorAll('.parametro-senha-botao');
 const forcaSenha = document.querySelector('.forca');
 botoes[0].onclick = diminuiTamanho;
 botoes[1].onclick = aumentaTamanho;
-function diminuiTamanho() {
-    if(tamanhoSenha) >1 {
+function diminuiTamanho (){
+    if (tamanhoSenha > 1){
         tamanhoSenha--;
     }
     numeroSenha.textContent = tamanhoSenha;
-    geraSenha();  
+    geraSenha();
 }
-function aumentaTamanho() {
-    if(tamanhoSenha) <20 {
+function aumentaTamanho (){
+    if (tamanhoSenha < 20){
         tamanhoSenha++;
     }
     numeroSenha.textContent = tamanhoSenha;
-    geraSenha();    
+    geraSenha();
 }
-const campoSenha = document.querySelector('#campo-senha');
-const letrasMaisculas ='ABCDEFGHIJKLMNOPQRSTUVWXYZ';
-const letrasMinusculas ='abcdefghijklmnopqrstuvwxyz';
+const campoSenha  = document.querySelector('#campo-senha');
+const letrasMaiusculas = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+const letrasMinusculas = 'abcdefghijklmnopqrstuvwxyz';
 const numeros = '0123456789';
-const simbolos = '!@#*?';
+const simbolos = '!@%*?';
 function geraSenha (){
     let alfabeto = '';
     if (checkbox[0].checked){
