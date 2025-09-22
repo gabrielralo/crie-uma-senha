@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mozilla+Headline:wght@200..700&display=swap');
 :root{
-    --branco:white;
+    --branco:rgb(208, 8, 8);
     --cor-de-fundo:#14229f;
-    --fundo-senha:#0cb812;
+    --fundo-senha:3g#0c5cb8;
     --fundo-texto:#0c34b8;
     --borda:#173bbf;
     --fonte-principal:'family Mozilla Headline';
