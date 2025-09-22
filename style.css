@@ -106,21 +106,21 @@ label{
 .fraca{
     height: 30px;
     width: 25%;
-    background-color: #fefbfb;
+    background-color: #c71818;
     position: relative;
     bottom: 30px;
 }
 .media{
     height: 30px;
     width: 50%;
-    background-color: #dddeda;
+    background-color: #99c710;
     position: relative;
     bottom: 30px;
 }
 .forte{
     height: 30px;
     width: 100%;
-    background-color: #dde1de;
+    background-color: #0ddc41;
     position: relative;
     bottom: 30px;
 }
